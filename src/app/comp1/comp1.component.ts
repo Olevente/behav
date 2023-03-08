@@ -7,7 +7,7 @@ import { BehavService } from '../shared/behav.service';
   styleUrls: ['./comp1.component.scss']
 })
 export class Comp1Component implements OnInit {
-  data = 'alma';
+  data = 'AAAAAAAAAAAAAAAAAAAAA';
 
   constructor(private behav:BehavService) { }
 
