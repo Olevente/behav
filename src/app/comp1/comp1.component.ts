@@ -6,10 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./comp1.component.scss']
 })
 export class Comp1Component implements OnInit {
+  data = 'alma';
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  sendDataToService() {
+    
   }
 
 }
